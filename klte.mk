@@ -99,12 +99,12 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.2.0 \
+    android.hardware.biometrics.fingerprint@2.0-service \
     fingerprint.msm8974
 
 # FlipFlap
-#PRODUCT_PACKAGES += \
-#    FlipFlap
+PRODUCT_PACKAGES += \
+    FlipFlap
 
 # IPv6 tethering
 PRODUCT_PACKAGES += \
